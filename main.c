@@ -15,7 +15,7 @@ unsigned char *reflect(unsigned char *data, int x, int y, int n) {
 	for (int i = 0; i < y; ++i) {
 		for (int j = 0; j < x; ++j) {
 			for (int l = 0; l < n; ++l) {
-				data[i * x * n + j * n + l] = data[ n * i * x + n * j + l];
+				data[i * x * n + j * n + 2] = data[ n * i * x + n * j + 2];
 			}
 		}
 	}
