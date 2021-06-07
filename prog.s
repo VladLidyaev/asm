@@ -47,3 +47,4 @@ exit2:
 exit1:
 	ldp x29, x30, [sp], #16
 	ret
+	.size reflectasm, .-reflectasm
